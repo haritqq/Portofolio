@@ -643,7 +643,8 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .languages__content {
+    /* nanti cek apakah languages__container atau languages__content sebelumnya languages__content  */
+    .languages__container {
         grid-template-columns: repeat(3, max-content);
         column-gap: 3.5rem;
     }
